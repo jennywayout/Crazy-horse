@@ -1,0 +1,30 @@
+/* ====== BRAND COLOURS ====== */
+:root {
+  --brand-primary: #732282;
+  --brand-teal: #00747A;
+  --brand-navy: #002664;
+  --brand-olive: #9C9A00;
+  --brand-amber: #B06F00;
+  --brand-crimson: #882345;
+  --brand-black: #000000;
+
+  --bs-primary: var(--brand-primary);
+  --bs-primary-rgb: 115, 34, 130;
+  --bs-link-color: var(--brand-primary);
+  --bs-link-hover-color: #9f46b0;
+}
+
+.navbar.bg-primary,
+.navbar.navbar-dark.bg-primary { background-color: var(--brand-primary) !important; }
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover { color: #fff !important; opacity: .85; }
+
+.page-wrap { padding-top: 1rem; padding-bottom: 2rem; }
+.kpi-card .label { color: #6c757d; font-size: .9rem; }
+.kpi-card .value { font-weight: 700; font-size: 1.6rem; }
+
+.ag-theme-alpine {
+  --ag-selected-row-background-color: rgba(var(--bs-primary-rgb), 0.08);
+  --ag-range-selection-border-color: var(--brand-primary);
+}
